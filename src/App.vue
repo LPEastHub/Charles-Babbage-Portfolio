@@ -1,5 +1,5 @@
 <script setup>
-	import Navbar from './components/Navbar.vue';
+	import NavBar from './components/NavBar.vue';
 	import About from './components/About.vue';
 	import Projects from "./components/Projects.vue";
 	import Tools from "./components/Tools.vue";
@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  	<Navbar />
+  	<NavBar />
   	<div class = "container-fluid">
   		<About />
   		<Projects />
